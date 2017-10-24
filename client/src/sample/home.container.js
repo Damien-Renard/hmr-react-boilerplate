@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-expressions */
 import React, { Component } from 'react';
 
+/* -- Import Child Components -- */
+import DisplayText from './home.display.text';
+
 class Home extends Component {
   constructor() {
     super();
@@ -28,10 +31,12 @@ class Home extends Component {
   }
 
   render() {
-    const displayText = `${this.state.text.slice(0, this.state.index)}_`;
+    const text = `${this.state.text.slice(0, this.state.index)}_`;
     return (
       <div id="home-wrapper" className="cover flex center-center">
-        <div className="text-xxl">{displayText}</div>
+        <DisplayText
+          text={text}
+        />
       </div>
     );
   }
