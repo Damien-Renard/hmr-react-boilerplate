@@ -5,7 +5,7 @@ import { Route, IndexRoute, IndexRedirect } from 'react-router'; // eslint-disab
 import App from './app';
 
 /* Website */
-import HomePage from './src/website/home/home';
+import HomePage from './src/sample/home';
 
 
 export default (
