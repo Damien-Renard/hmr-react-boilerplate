@@ -8,7 +8,7 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {
-      text: 'SURF TA VAGUE',
+      text: 'HMR-REACT BOILERPLATE',
       index: 0,
       interval: null,
     };
