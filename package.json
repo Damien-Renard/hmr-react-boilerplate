@@ -1,7 +1,7 @@
 {
-  "name": "surftavague",
+  "name": "hmr-react-boilerplate",
   "version": "1.0.0",
-  "description": "cooperathon2017",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run build",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sokmeann/surftavague.git"
+    "url": "git+https://github.com/sokmeann/hmr-react-boilerplate.git"
   },
   "author": "Sokmean Nou",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sokmeann/surftavague/issues"
+    "url": "https://github.com/sokmeann/hmr-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/sokmeann/surftavague#readme",
+  "homepage": "https://github.com/sokmeann/hmr-react-boilerplate#readme",
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
