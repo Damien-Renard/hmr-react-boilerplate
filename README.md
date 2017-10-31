@@ -1,5 +1,4 @@
-# surftavague
-Cooperathon2017
+# HMR-REACT-BOILERPLATE
 
 - Install NPM in your terminal
 - run `npm install`
